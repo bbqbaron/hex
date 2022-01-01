@@ -1,0 +1,6 @@
+function on_message(self, message_id, message, sender)
+	if message_id == hash("score") then
+		gui.set_text(gui.get_node("bluescore"), message.blue)
+		gui.set_text(gui.get_node("redscore"), message.red)
+	end
+end

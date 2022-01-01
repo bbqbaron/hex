@@ -1,0 +1,1 @@
+> fswatch main/main.fnl | (xargs -n1 ./compile)

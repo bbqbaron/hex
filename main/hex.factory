@@ -1,0 +1,2 @@
+prototype: "/main/hex.go"
+load_dynamically: false

@@ -1,0 +1,9 @@
+local m = require("main/main")
+
+function init(self)
+	m.init(self)
+end
+
+function on_input(self, action_id, action)
+	m.on_input(self, action_id, action)
+end
